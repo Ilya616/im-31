@@ -23,4 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('list-products/', views.list_products),
+
+    path('add-category/', views.add_category),
+
+    path('accept-category/', views.accept_category),
 ]

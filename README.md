@@ -11,3 +11,5 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ./manage.py makemigrations im
 python manage.py makemigrations
 python manage.py migrate
+
+python manage.py seeds

@@ -1,4 +1,5 @@
 from django.db import models
+from django_seed import Seed
 
 
 class Product(models.Model):
@@ -15,4 +16,14 @@ class CategoryProduct(models.Model):
     descriptrion_category = models.TextField()
 
 
+class Role(models.Model):
+    name = models.CharField(max_length=20)
+
+
+# class Seed(models.Model):
+    
+#     seeder = Seed.seeder()
+#     seeder.add_entity(Role, 2, {
+#     'name': 'user',
+# })
 
